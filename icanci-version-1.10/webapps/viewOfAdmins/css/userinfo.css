@@ -1,0 +1,151 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font: 13px/1.5 微软雅黑, simsun, sans-serif;
+}
+
+a {
+	color: #777;
+	text-decoration: none;
+}
+
+img{
+	margin: 0;
+	padding: 0;
+}
+
+.mainpage{
+	overflow: hidden;
+}
+
+.top{
+	width: 100%;
+	background-color: #009AF3;
+}
+
+.same{
+	display: inline-block;
+	height: 60px;
+	line-height: 60px;
+	color: white;
+	font-size: 18px;
+	cursor: pointer;
+}
+
+.cn{
+	font-weight: bolder;
+	margin-left: 80px;
+}
+
+.user{
+	height: 25px;
+	line-height: 25px;
+	margin-left: 8px;
+	font-size: 15px;
+	padding-left: 10px;
+	border-left: 2px solid white;
+}
+
+.special{
+	color: white;
+	margin-left: 8px;
+}
+
+.content-top{
+	width: 1000px;
+	margin-top: 10px;
+	margin-left: 80px;
+}
+
+.content a{
+	display: inline-block;
+	opacity: .6;
+	font-size: 14px;
+}
+
+.info{
+	position: relative;
+	width: 100%;
+}
+
+.info-top{
+	height: 40px;
+	margin-top: 20px;
+	background-color: gainsboro;
+	width: 1600px;
+	opacity: .7;
+}
+
+.info-top span{
+	display: inline-block;
+	padding-left: 140px;
+	padding-top: 10px;
+	color: #171717;
+}
+
+.info-top span:first-child{
+	padding-left: 0;
+}
+
+.info-content{
+	margin-top: 20px;
+	width: 1200px;
+}
+
+.userinfo{
+	margin-top: 20px;
+}
+
+.userinfo ul{
+	list-style: none;
+	height: 60px;
+	width: 1600px;
+}
+
+ul li{
+	float: left;
+	display: inline-block;
+	height: 60px;
+	line-height: 60px;
+	width: 150px;
+	cursor: pointer;
+	font-size: 14px/1.5;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.s1{
+	margin-left: 20px;
+}
+
+.s2{
+	margin-left: 35px;
+}
+
+.s3{
+	margin-left: 15px;
+}
+
+.s4{
+	margin-left: 10px;
+	
+}
+
+.s5{
+	margin-left: 40px;
+}
+
+.s6{
+	margin-left: 40px;
+}
+
+.s7{
+	margin-left: 60px;
+}
+
+.s7 a{
+	color: red;
+}

@@ -1,0 +1,193 @@
+body {
+	border: #000000 solid 1px;
+}
+
+.top-navigationme {
+	width: 100%;
+	height: 50px;
+	background-color: #333333;
+	position: fixed;
+	margin-bottom: 100px;
+}
+
+.top-navigationme-left {
+	float: left;
+	width: 35%;
+	height: 50px;
+	margin-left: 20%;
+}
+
+.top-navigationme-left .top-navigationme-left-logo {
+	width: 120px;
+	height: 50px;
+	float: left;
+}
+
+.top-navigationme-left .top-navigationme-left-logo img {
+	width: 120px;
+	height: 40px;
+	position: fixed;
+	margin-top: 5px;
+}
+
+.top-navigationme-right {
+	float: right;
+	width: 20%;
+	height: 50px;
+	margin-right: 15%;
+}
+
+.top-navigationme-right .top-navigationme-right-me ul li {
+	float: left;
+	margin-left: 5%;
+	margin-top: -2px;
+}
+
+.top-navigationme-right .top-navigationme-right-me ul li img {
+	width: 40px;
+	height: 40px;
+	margin-top: -20px;
+}
+
+.top-navigationme-right .top-navigationme-right-me ul li a {
+	line-height: 50px;
+	color: white;
+}
+
+.top-navigationme-right .top-navigationme-right-me ul li a:hover {
+	color: #2ECC71;
+}
+
+.top-navigationme-right .top-navigationme-right-me {
+	text-align: center;
+}
+
+h3 {
+	font-size: 30px;
+	color: #000000;
+}
+
+.center {
+	width: 60%;
+	height: 700px;
+	background-color: honeydew;
+	border: #000000 solid 1px;
+	margin: 0 auto;
+	margin-top: 60px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.center form {
+	margin-top: 50px;
+	border: #000000 solid 1px;
+	height: 600px;
+	border-left: #000000 solid 0px;
+	border-right: #000000 solid 0px;
+}
+
+.center form .inputs {
+	width: 80%;
+	height: 60px;
+	margin: 0 auto;
+	/* background-color: #00BFFF; */
+	margin-top: 20px;
+	text-align: center;
+	line-height: 3.75rem;
+	font-size: 15px;
+	color: #000000;
+}
+
+.center form [type="text"],.center form [type="number"] {
+	outline: none;
+	width: 200px;
+	height: 35px;
+	/* background-color: red; */
+	border: #000000 solid 1px;
+	border-radius: 4px;
+	text-align: center;
+	margin-left: 50px;
+}
+
+.center form .c1{
+	margin-left: 70px;
+}
+
+.center form .c2{
+	margin-left: 70px;
+}
+
+.center form .c3{
+	margin-left: 70px;
+}
+.center form [type="file"]{
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	margin-left: 0px;
+}
+
+.center form .images{
+	margin-top: -20px;
+}
+
+.center form .images .im{
+	border: #000000 solid 1px;
+	width: 60px;
+	height: 57px;
+	/* background-color: gray; */
+	margin-left: 210px;
+	background: url(../images/wizardMap.png) no-repeat;
+	background-position: -742px -274px;
+}
+
+.center form .images img{
+	width: 100px;
+	height: 100px;
+	background-color: #0095D9;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.center .inputs .personalizedSignature {
+	width: 300px;
+}
+
+.center .inputs .sub{
+	width: 200px;
+	height: 50px;
+	background-color: #3498DB;
+	border: #000000 solid 1px;
+	margin-top: 150px;
+}
+
+/* =============== index.css ===================== */
+.box {
+	width: 600px;
+	height: 50px;
+	/* background-color: red; */
+	margin: 0px auto;
+	/* padding: 50px 5px 5px 5px; */
+}
+
+.upload {
+	text-align: center;
+	background: #f2f2f2;
+	position: relative;
+	margin-left: 190px;
+}
+
+.upload:hover {
+	background: #21292f;
+	color: #ffffff;
+}
+
+.upload input {
+	opacity: 0;
+	position: absolute;
+	top: -1px;
+	left: -1px;
+	width: 100%;
+}
+
+/* ========================================== */

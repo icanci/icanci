@@ -1,0 +1,115 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background: url(../images/login1.jpg) no-repeat;
+	background-position: -100px -250px;
+}
+
+.box{
+	width: 300px;
+	padding: 40px;
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background: #191919;
+	opacity: 0.85;
+	text-align: center;
+	color: white;
+}
+
+.box input[type = "text"] ,.box input[type = "password"]{
+	border: 0;
+	background:none ;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #3498db;
+	padding: 14px 10px;
+	width: 200px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition: 0.25s;
+	opacity: 1;
+}
+.box input[type = "text"]:focus,.box input[type = "password"]:focus{
+	width: 280px;
+	border-color: #2ecc71;
+	opacity: 1;
+}
+.box input[type = "submit"]{
+	border: 0;
+	background:none ;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #3498db;
+	padding: 14px 40px;
+	/* width: 200px; */
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition: 0.25s;
+	cursor: pointer;
+	opacity: 1;
+}
+.box input[type = "submit"]:hover{
+	background: #2ECC71;
+}
+.box input:hover{
+	border: greenyellow solid 2px;
+}
+
+.box p a{
+	color: white;
+	text-decoration: none;
+	opacity: 0.7;
+}
+.box p a:hover{
+	color: #2ECC71;
+	opacity: 0.7;
+}
+.box p span{
+	color: white;
+	opacity: 0.7;
+}
+.box .getVerificationCode{
+	margin: 0 auto;
+	width: 220px;
+	height: 40px;
+	border: blue solid 2px;
+	text-align: center;
+	border-radius: 24px;
+}
+.box .getVerificationCode:hover{
+	border: greenyellow solid 2px;
+}
+.box .getVerificationCode .getCode{
+	width: 120px;
+	height: 40px;
+	float: left;
+}
+.box .getVerificationCode .reset{
+	width: 70px;
+	height: 30px;
+	float: right;
+	margin-top: -6px;
+	margin-right: 12px;
+}
+
+.box .username .getCode{
+	width: 100px;
+	height: 40px;
+	float: left;
+	margin-left: 20px;
+	margin-top: -6px;
+}
+.box .username .email{
+	width: 70px;
+	height: 30px;
+	float: right;
+	margin-top: -6px;
+	margin-right: 30px;
+}

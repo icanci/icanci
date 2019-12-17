@@ -1,0 +1,581 @@
+/* 固定定位部分 */
+.pos-left {
+	width: 180px;
+	height: 430px;
+	top: 100px;
+	left: 60px;
+	position: fixed;
+}
+
+.pos-left .pos-left-s1 {
+	width: 100%;
+	height: 50px;
+	float: left;
+	background-color: #CCCCCC;
+	text-align: center;
+	margin-top: 10px;
+	text-align: center;
+}
+
+.pos-left .pos-left-s1 ul li {
+	float: left;
+	margin-left: 10%;
+	text-align: center;
+}
+
+.pos-left .pos-left-s1 ul li a {
+	line-height: 50px;
+	color: black;
+}
+
+.pos-left .pos-left-s1 .img-friend {
+	width: 48px;
+	height: 48px;
+	background: url(../images/wizardMap.png) no-repeat;
+	background-position: -276px -1134px;
+	transform: scale(0.5);
+}
+
+.pos-left .pos-left-s1 .img-friend-add {
+	width: 47px;
+	height: 46px;
+	background: url(../images/wizardMap.png) no-repeat;
+	background-position: -442px -1314px;
+	transform: scale(0.5);
+}
+
+.pos-left .pos-left-s1 .img-set {
+	width: 49px;
+	height: 51px;
+	background: url(../images/wizardMap.png) no-repeat;
+	background-position: -274px -611px;
+	transform: scale(0.5);
+}
+
+.pos-left .pos-left-s1 .photos {
+	width: 46px;
+	height: 47px;
+	background: url(../images/wizardMap.png) no-repeat;
+	background-position: -107px -1133px;
+	transform: scale(0.5);
+}
+
+.pos-left .pos-left-s1 .newtexts {
+	width: 44px;
+	height: 48px;
+	background: url(../images/wizardMap.png) no-repeat;
+	background-position: -267px -959px;
+	transform: scale(0.7);
+}
+
+.pos-left .pos-left-s1 .customer-service {
+	width: 48px;
+	height: 44px;
+	background: url(../images/wizardMap.png) no-repeat;
+	background-position: -599px -1849px;
+	transform: scale(0.7);
+}
+
+.pos-left .pos-left-s1 a:hover {
+	color: #2ECC71;
+}
+
+.pos-right-center{
+	width: 150px;
+	height: 150px;
+	top:350px;
+	right: 40px;
+	position: fixed;
+	border: #000000 solid 1px;
+	text-align: center;
+}
+.pos-right-center p{
+	font-size: 15px;
+	text-align: center;
+	margin-top: 20px;
+	width: 48px;
+	height: 50px;
+	background: url(../images/wizardMap.png) no-repeat;
+	background-position: -274px -273px;
+	margin-left: 50px;
+}
+.pos-right-center form input:first-child{
+	width: 80%;
+	height: 25px;
+	border: #000000 solid 1px;
+	margin-top: 10px;
+	background-color: #FD9E09;
+	background-color: darkorange;
+}
+
+.pos-right-center form input:last-child{
+	width: 60%;
+	height: 23px;
+	border: #000000 solid 1px;
+	margin-top: 10px;
+}
+
+.pos-right-center form input:last-child:hover{
+	background-color: #2ECC71;
+}
+
+.pos-right {
+	width: 50px;
+	height: 150px;
+	background-color: #CCCCCC;
+	top: 100px;
+	right: 70px;
+	position: fixed;
+}
+
+.pos-right .questions {
+	width: 50px;
+	height: 50px;
+	background: url(../images/wizardMap.png) no-repeat;
+	background-position: -599px -3201px;
+	transform: scale(0.7);
+	color: #0000FF;
+	font-size: 0px;
+}
+
+.pos-right .questions:hover {
+	width: 50px;
+	height: 50px;
+	background: url(../images/wizardMap.png) no-repeat;
+	background-position: -515px -3201px;
+	transform: scale(0.7);
+	color: white;
+	text-align: center;
+	font-size: 20px;
+}
+
+.pos-right .hots {
+	width: 50px;
+	height: 50px;
+	background: url(../images/wizardMap.png) no-repeat;
+	background-position: -443px -1669px;
+	transform: scale(0.5);
+	color: #0000FF;
+	font-size: 0px;
+}
+
+.pos-right .hots:hover {
+	width: 50px;
+	height: 50px;
+	background: url(../images/wizardMap.png) no-repeat;
+	background-position: -515px -3201px;
+	transform: scale(0.7);
+	color: white;
+	text-align: center;
+	font-size: 20px;
+}
+
+.pos-right .find {
+	width: 50px;
+	height: 50px;
+	background: url(../images/wizardMap.png) no-repeat;
+	background-position: -745px -611px;
+	transform: scale(0.5);
+	color: #0000FF;
+	font-size: 0px;
+}
+
+.pos-right .find:hover {
+	width: 50px;
+	height: 50px;
+	background: url(../images/wizardMap.png) no-repeat;
+	background-position: -515px -3201px;
+	transform: scale(0.7);
+	color: white;
+	text-align: center;
+	font-size: 20px;
+}
+
+.pos-button {
+	width: 50px;
+	height: 50px;
+	font-size: 50px;
+	right: 70px;
+	bottom: 20px;
+	background-color: deepskyblue;
+	position: fixed;
+	text-align: center;
+}
+
+.pos-button a {
+	color: #191919;
+}
+
+.pos-button:hover a {
+	color: white;
+	text-align: center;
+}
+
+/* 整体背景 */
+
+html {
+	background-image: url(../images/bg2.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+body {
+	background-image: url(../images/bg2.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+
+/* 导航栏部分 */
+
+.top-navigation {
+	width: 100%;
+	height: 50px;
+	background-color: #333333;
+	position: fixed;
+	float: left;
+}
+
+.top-navigation-left {
+	float: left;
+	width: 35%;
+	height: 50px;
+	margin-left: 20%;
+}
+
+.top-navigation-left .top-navigation-left-logo {
+	width: 120px;
+	height: 50px;
+	float: left;
+}
+
+.top-navigation-left .top-navigation-left-logo img {
+	width: 120px;
+	height: 40px;
+	position: fixed;
+	margin-top: 5px;
+}
+
+.top-navigation-right {
+	float: right;
+	width: 20%;
+	height: 50px;
+	margin-right: 15%;
+}
+
+.top-navigation-right .top-navigation-right-me ul li {
+	float: left;
+	margin-left: 5%;
+}
+
+.top-navigation-right .top-navigation-right-me ul li img {
+	width: 40px;
+	height: 40px;
+	margin-top: 5px;
+}
+
+.top-navigation-right .top-navigation-right-me ul li a {
+	line-height: 50px;
+	color: white;
+}
+
+.top-navigation-right .top-navigation-right-me ul li a:hover {
+	color: #2ECC71;
+}
+
+.top-navigation-right .top-navigation-right-me {
+	text-align: center;
+}
+
+
+/* 主体部分 */
+
+.center-body {
+	width: 60%;
+	height: 500px;
+	margin: 0 auto;
+	border: #999999 solid 1px;
+	background: url(../images/bg5.jpg) no-repeat;
+	background-position: -200px -400px;
+}
+
+.center-body .center-body-top {
+	width: 100%;
+	height: 100px;
+	margin-top: 200px;
+	text-align: center;
+}
+
+.center-body .center-body-top img {
+	width: 60px;
+	height: 60px;
+}
+
+.center-body .center-body-top ul li {
+	float: left;
+	margin-left: 10%;
+	text-align: center;
+	line-height: 50px;
+	font-size: 18px;
+	color: #000000;
+	margin-top: 25px;
+}
+
+.center-body .center-body-top .self-location {
+	margin-top: 20px;
+}
+
+.center-body .center-body-center {
+	width: 100%;
+	height: 350px;
+	/* background-color: #FD9E09; */
+}
+
+.center-body .center-body-center .sendMessage {
+	width: 100%;
+	height: 100px;
+	float: left;
+	border: #4A4A4A solid 1px;
+	background: url(../images/bg2.jpg) no-repeat;
+	background-position: -100px -300px;
+}
+
+.center-body .center-body-center .sendMessage .box1 {
+	width: 300px;
+	height: 100px;
+	float: left;
+}
+
+.center-body .center-body-center .sendMessage .box1 .userMessages{
+	text-indent: 2em;
+}
+
+.center-body .center-body-center .sendMessage .upimg {
+	border: #000000 solid 0px;
+	width: 80px;
+	height: 80px;
+	margin-top: 10px;
+	margin-left: 50px;
+	background: url(../images/noupimg.png) no-repeat;
+	background-position: -10px;
+	border: #000000 solid 1px;
+	border-radius: 17px;
+	outline: none;
+}
+
+/* 修改上传的图片的大小 */
+.center-body .center-body-center .sendMessage .box1 img {
+	width: 80px;
+	height: 80px;
+	border: #000000 solid 1px;
+	border-radius: 10px;
+	outline: none;
+}
+
+.center-body .center-body-center .sendMessage .boxfile {
+	width: 60px;
+	height: 50px;
+	margin-top: 30px;
+	background: url(../images/wizardMap.png) no-repeat;
+	background-position: -268px -1483px;
+	border: #000000 solid 1px;
+	transform: scale(0.8);
+	margin-left: 100px;
+	border-radius: 10px;
+	outline: none;
+}
+
+.center-body .center-body-center .sendMessage .boxfile .file {
+	width: 60px;
+	height: 60px;
+	opacity: 0;
+	margin-left: 0px;
+}
+
+.center-body .center-body-center .sendMessage form textarea {
+	width: 300px;
+	height: 75px;
+	margin-left: 10px;
+	margin-top: 10px;
+	border: #000000 solid 1px;
+	background-color: white;
+	background: url(../images/bg2.jpg) no-repeat;
+	background-position: -100px -300px;
+	border-radius: 15px;
+	outline: none;
+}
+
+.center-body .center-body-center .sendMessage .boxsub input {
+	width: 80px;
+	height: 30px;
+	border: #191919 solid 1px;
+	background-color: white;
+	margin-top: 40px;
+	margin-left: 100px;
+	background: url(../images/bg2.jpg) no-repeat;
+	background-position: -100px -300px;
+	border-radius: 10px;
+	outline: none;
+}
+
+.center-body .center-body-center .sendMessage .boxsub input:hover {
+	width: 80px;
+	height: 30px;
+	border: #191919 solid 1px;
+	background-color: #2ECC71;
+}
+
+.center-body .center-body-foot {
+	width: 100%;
+	height: 1100px;
+	/* background-color: greenyellow; */
+}
+
+.center-body .center-body-foot .user-blank {
+	width: 100%;
+	height: 100px;
+}
+
+.clearfloat {
+	clear: both;
+	height: 0;
+	font-size: 1px;
+	line-height: 0px;
+}
+
+.center-body .center-body-foot .user-message {
+	width: 100%;
+	background-color: white;
+	border: #000000 solid 1px;
+	/* background-color: antiquewhite; */
+}
+
+.center-body .center-body-foot .user-message .out {
+	border: #000000 solid 1px;
+	width: 100%;
+	height: 60px;
+	border-top: #000000 solid 0px;
+	border-right: #000000 solid 0px;
+	border-left: #000000 solid 0px;
+}
+
+.center-body .center-body-foot .user-message ul li {
+	float: left;
+	line-height: 60px;
+	font-size: 14px;
+	color: #000000;
+	height: 60px;
+}
+.center-body .center-body-foot .user-message ul li a{
+	color: #00FFFF;
+}
+
+.center-body .center-body-foot .user-message .l10 {
+	margin-left: 5%;
+}
+
+.center-body .center-body-foot .user-message .user-img img {
+	width: 58px;
+	height: 58px;
+	margin-top: 1px;
+	margin-left: 2px;
+}
+
+.center-body .center-body-foot .info {
+	width: 100%;
+	margin-top: 60px;
+}
+
+.center-body .center-body-foot .info p {
+	font-size: 15px;
+	float: left;
+	color: #000000;
+}
+
+.center-body .center-body-foot .info .message {
+	width: 90%;
+	float: left;
+	margin-left: 5%;
+	text-indent: 2em;
+	margin-top: -30px;
+}
+
+.center-body .center-body-foot .info .imgs {
+	float: left;
+	width: 200px;
+	height: 180px;
+	margin-top: 20px;
+	margin-left: 12%;
+	margin-bottom: 20px;
+}
+
+.center-body .center-body-foot .info .imgs img {
+	/* width: 200px;
+	height: 140px; */
+	width: 100%;
+	height: 100%;
+}
+
+
+
+/* 底部导航栏 */
+/* 选项   */
+
+.jump {
+	width: 100%;
+	height: 70px;
+	text-align: center;
+}
+.jump p{
+	font-size: 18px;
+	line-height: 30px;
+	color: #000000;
+}
+.jump p a{
+	color: #000000;
+}
+
+.jump form{
+	font-size: 18px;
+	line-height: 30px;
+	color: #000000;
+}
+
+.jump form .numget{
+	width: 150px;
+	height: 25px;
+	border: #000000 solid 1px;
+	font-size: 20px;
+}
+.jump form .numsub{
+	width: 60px;
+	/* background-color: #000000; */
+	background-color: #4A4A4A;
+	color: white;
+	border: #000000 solid 1px;
+}
+
+.foot {
+	width: 100%;
+	height: 80px;
+	margin: 0 auto;
+	background-color: #000000;
+	text-align: center;
+	border: #000000 solid 0.0625rem;
+}
+
+.foot p a {
+	line-height: 20px;
+	font-size: 15px;
+	color: white;
+}
+
+.foot p {
+	line-height: 25px;
+	font-size: 12px;
+	color: white;
+}
+
+.foot p a:hover {
+	color: #2ECC71;
+}

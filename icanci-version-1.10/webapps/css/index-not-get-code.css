@@ -1,0 +1,42 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background: url(../images/login7.jpg) no-repeat;
+	background-position: -100px -250px;
+}
+
+.box{
+	width: 300px;
+	padding: 40px;
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background: #191919;
+	opacity: 0.65;
+	text-align: center;
+	color: white;
+}
+
+.box p{
+	color: chocolate;
+}
+
+.box .p1{
+	color: aqua;
+}
+
+.box p a{
+	color: white;
+	text-decoration: none;
+	opacity: 0.7;
+}
+.box p a:hover{
+	color: #2ECC71;
+	opacity: 0.7;
+}
+.box p span{
+	color: white;
+	opacity: 0.7;
+}

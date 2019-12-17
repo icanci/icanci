@@ -1,0 +1,98 @@
+table{
+	width: 80%;
+	text-align: center;
+	margin: 0 auto;
+}
+table caption{
+	font-size: 20px;
+	line-height: 60px;
+	text-align: center;
+	background-color: #000000;
+	color: white;
+}
+table caption p{
+	line-height: 50px;
+}
+table caption img{
+	width: 180px;
+	height: 60px;
+	margin-top: 20px;
+}
+span{
+	color: red;
+}
+table tr th{
+	text-align: center;
+	font-size: 15px;
+	color: #000000;
+	line-height: 30px;
+}
+table tr td{
+	text-align: center;
+	line-height: 30px;
+	color: #000000;
+}
+table tr td a{
+	color: #007AFF;
+}
+.jump{
+	font-size: 15px;
+	color: #000000;
+}
+
+.jump a{
+	font-size: 15px;
+	color: #2ECC71;
+}
+.jump a:hover{
+	color: #DE5923;
+}
+.numsub{
+	width: 100px;
+	color: #000000;
+	border: #000000 solid 1px;
+}
+.namespan{
+	color: yellowgreen;
+}
+
+/* 固定定位 */
+
+.pos-right-center{
+	width: 150px;
+	height: 150px;
+	top:562px;
+	right: 40px;
+	position: fixed;
+	border: #000000 solid 1px;
+	text-align: center;
+}
+.pos-right-center p{
+	font-size: 15px;
+	text-align: center;
+	margin-top: 20px;
+	width: 48px;
+	height: 50px;
+	background: url(../images/wizardMap.png) no-repeat;
+	background-position: -274px -273px;
+	margin-left: 50px;
+}
+.pos-right-center form input:first-child{
+	width: 80%;
+	height: 25px;
+	border: #000000 solid 1px;
+	margin-top: 10px;
+	background-color: #FD9E09;
+	background-color: darkorange;
+}
+
+.pos-right-center form input:last-child{
+	width: 60%;
+	height: 23px;
+	border: #000000 solid 1px;
+	margin-top: 10px;
+}
+
+.pos-right-center form input:last-child:hover{
+	background-color: #2ECC71;
+}

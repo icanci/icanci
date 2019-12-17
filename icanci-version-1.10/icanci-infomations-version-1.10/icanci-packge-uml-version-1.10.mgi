@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ClassDiagram>
+    <CommunicationClass name="cn.icanci.dao.IUserSpaceDao" x="122" y="546"/>
+    <CommunicationClass name="cn.icanci.dao.IResultSetHander" x="131" y="224"/>
+    <CommunicationClass name="cn.icanci.dao.IFriendRelationshipDao"
+        x="129" y="151"/>
+    <CommunicationClass name="cn.icanci.dao.IUserFeedbackDao" x="124" y="475"/>
+    <CommunicationClass name="cn.icanci.dao.IUserDao" x="129" y="313"/>
+    <CommunicationClass name="cn.icanci.dao.impl.UserDaoImpl" x="298" y="278">
+        <Extension destinationClassName="cn.icanci.dao.IUserDao"/>
+    </CommunicationClass>
+    <CommunicationClass name="cn.icanci.dao.impl.AdminDaoImpl" x="127" y="396">
+        <Extension destinationClassName="cn.icanci.dao.IAdminDao"/>
+    </CommunicationClass>
+    <CommunicationClass
+        name="cn.icanci.dao.impl.FriendRelationshipDaoImpl" x="236" y="66">
+        <Extension destinationClassName="cn.icanci.dao.IFriendRelationshipDao"/>
+    </CommunicationClass>
+    <CommunicationClass name="cn.icanci.dao.IAdminDao" x="133" y="71"/>
+</ClassDiagram>

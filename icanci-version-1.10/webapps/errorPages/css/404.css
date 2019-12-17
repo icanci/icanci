@@ -1,0 +1,44 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background-color: #999999;
+	background: url(../images/404.png) no-repeat;
+	background-position: -80px -100px;
+}
+
+
+.box{
+	width: 300px;
+	padding: 40px;
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background: #191919;
+	opacity: 0.5;
+	text-align: center;
+	color: white;
+}
+
+.box p a{
+	color: white;
+	text-decoration: none;
+	color: #FFFF00;
+	font-size: 16px;
+}
+.box p a:hover{
+	color: white;
+}
+
+input{
+	background-color: #00FFFF;
+	width: 100px;
+	height: 30px;
+	border: #000000 solid 1px;
+	font-size: 16px;
+	color: black;
+}
+input:hover{
+	color: white;
+}

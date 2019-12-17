@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PackageAnalysis>
+    <Package name="cn.icanci.dao" x="89" y="24">
+        <DependencyLink destination="cn.icanci.domain"/>
+        <DependencyLink destination="cn.icanci.page"/>
+    </Package>
+    <Package name="cn.icanci.dao.impl" x="426" y="157">
+        <DependencyLink destination="cn.icanci.domain"/>
+        <DependencyLink destination="cn.icanci.dao"/>
+        <DependencyLink destination="cn.icanci.template"/>
+        <DependencyLink destination="cn.icanci.page"/>
+        <DependencyLink destination="cn.icanci.hander"/>
+    </Package>
+    <Package name="cn.icanci.domain" x="11" y="167"/>
+    <Package name="cn.icanci.exception" x="858" y="548"/>
+    <Package name="cn.icanci.hander" x="408" y="16">
+        <DependencyLink destination="cn.icanci.dao"/>
+    </Package>
+    <Package name="cn.icanci.logs" x="117" y="257">
+        <DependencyLink destination="cn.icanci.domain"/>
+    </Package>
+    <Package name="cn.icanci.page" x="115" y="346"/>
+    <Package name="cn.icanci.template" x="567" y="533">
+        <DependencyLink destination="cn.icanci.util"/>
+        <DependencyLink destination="cn.icanci.dao"/>
+    </Package>
+    <Package name="cn.icanci.test" x="54" y="468">
+        <DependencyLink destination="cn.icanci.domain"/>
+        <DependencyLink destination="cn.icanci.util"/>
+        <DependencyLink destination="cn.icanci.dao.impl"/>
+        <DependencyLink destination="cn.icanci.dao"/>
+    </Package>
+    <Package name="cn.icanci.util" x="898" y="407">
+        <DependencyLink destination="cn.icanci.domain"/>
+        <DependencyLink destination="cn.icanci.dao.impl"/>
+        <DependencyLink destination="cn.icanci.dao"/>
+        <DependencyLink destination="cn.icanci.exception"/>
+    </Package>
+    <Package name="cn.icanci.web.filter" x="1214" y="514">
+        <DependencyLink destination="cn.icanci.util"/>
+    </Package>
+    <Package name="cn.icanci.web.servlet.admin" x="1118" y="213">
+        <DependencyLink destination="cn.icanci.domain"/>
+        <DependencyLink destination="cn.icanci.util"/>
+        <DependencyLink destination="cn.icanci.dao.impl"/>
+        <DependencyLink destination="cn.icanci.dao"/>
+    </Package>
+    <Package name="cn.icanci.web.servlet.listFeedback" x="1131" y="315">
+        <DependencyLink destination="cn.icanci.domain"/>
+        <DependencyLink destination="cn.icanci.util"/>
+        <DependencyLink destination="cn.icanci.dao.impl"/>
+        <DependencyLink destination="cn.icanci.dao"/>
+        <DependencyLink destination="cn.icanci.page"/>
+    </Package>
+    <Package name="cn.icanci.web.servlet.user" x="797" y="25">
+        <DependencyLink destination="cn.icanci.domain"/>
+        <DependencyLink destination="cn.icanci.util"/>
+        <DependencyLink destination="cn.icanci.dao.impl"/>
+        <DependencyLink destination="cn.icanci.dao"/>
+        <DependencyLink destination="cn.icanci.page"/>
+    </Package>
+    <Package name="cn.icanci.web.servlet.verificationCodeServlet" x="54" y="547">
+        <DependencyLink destination="cn.icanci.util"/>
+    </Package>
+</PackageAnalysis>

@@ -1,0 +1,461 @@
+
+@author 		icanci
+@version 		1.10
+@firstCodeTime	2019-11-30		
+
+F:.
+│  .classpath
+│  .project
+│  filename.txt
+│  
+├─.settings
+│      .jsdtscope
+│      org.eclipse.jdt.core.prefs
+│      org.eclipse.wst.common.component
+│      org.eclipse.wst.common.project.facet.core.xml
+│      org.eclipse.wst.jsdt.ui.superType.container
+│      org.eclipse.wst.jsdt.ui.superType.name
+│      
+├─logs
+│  ├─AllTomcatLogs
+│  │      TomcatLogs.log
+│  │      
+│  └─OtherLogs
+│          AllExceptionLogs.log
+│          
+├─resources
+│      druid.properties
+│      encoding.properties
+│      
+├─src
+│  └─cn
+│      └─icanci
+│          ├─dao
+│          │  │  IAdminDao.java
+│          │  │  IFriendRelationshipDao.java
+│          │  │  IResultSetHander.java
+│          │  │  IUserDao.java
+│          │  │  IUserFeedbackDao.java
+│          │  │  IUserSpaceDao.java
+│          │  │  
+│          │  └─impl
+│          │          AdminDaoImpl.java
+│          │          FriendRelationshipDaoImpl.java
+│          │          UserDaoImpl.java
+│          │          UserFeedbackImpl.java
+│          │          UserSpaceDaoImpl.java
+│          │          
+│          ├─domain
+│          │      Admin.java
+│          │      FriendRelationship.java
+│          │      User.java
+│          │      UserFeedback.java
+│          │      UserSpace.java
+│          │      
+│          ├─exception
+│          │      LogicException.java
+│          │      
+│          ├─hander
+│          │      BeanHander.java
+│          │      ListBeanHander.java
+│          │      
+│          ├─logs
+│          │      AllException.java
+│          │      ClassUserCreateLogs.java
+│          │      JDBCLogs.java
+│          │      OutputExceptions.java
+│          │      ServletLogs.java
+│          │      TomcatLogs.java
+│          │      
+│          ├─page
+│          │      PageResult.java
+│          │      
+│          ├─template
+│          │      JDBCTemplate.java
+│          │      
+│          ├─test
+│          │      AdminDaoTest.java
+│          │      Demo.java
+│          │      FriendRelationshipDaoTest.java
+│          │      UserDaoTest.java
+│          │      UserFeedbackDaoTest.java
+│          │      UserSpaceDaoTest.java
+│          │      
+│          ├─util
+│          │      CaptchaUtils.java
+│          │      EmailUtil.java
+│          │      FileUtil.java
+│          │      FileUtilUserSpace.java
+│          │      JDBCUtil.java
+│          │      JudgeStringEmptyUtil.java
+│          │      MD5Util.java
+│          │      StaticResources.java
+│          │      
+│          └─web
+│              ├─filter
+│              │      CheckLoginFilter.java
+│              │      EncodingFilter.java
+│              │      MaxSessionLifeFilter.java
+│              │      
+│              └─servlet
+│                  ├─admin
+│                  │      AdminDeleteFeedbackServlet.java
+│                  │      AdminServlet.java
+│                  │      
+│                  ├─listFeedback
+│                  │      AdminListFeedbackServlet.java
+│                  │      AdminLookFeedbackInformationPagesServlet.java
+│                  │      AdminSearchPagingServlet.java
+│                  │      UserFeedbackServlet.java
+│                  │      
+│                  ├─user
+│                  │      CheckEmailServlet.java
+│                  │      ErroneousJumpServlet.java
+│                  │      GetUserSpaceInformationServlet.java
+│                  │      IndexByEmailServlet.java
+│                  │      IndexByUsernameServlet.java
+│                  │      InnerUserUpdateSelfInformationsServlet.java
+│                  │      JudgeUsersImproveInformationServlet.java
+│                  │      LogoutServlet.java
+│                  │      OutterUserUpdateSelfInformationServlet.java
+│                  │      ResultInformationServlet.java
+│                  │      SaveUserSpacePostServlet.java
+│                  │      UserAddFriendsServlet.java
+│                  │      UserDeleteSelfUserSpaceServlet.java
+│                  │      UserIndexUpdateinformationServlet.java
+│                  │      UserInitLoginServlet.java
+│                  │      UserJudgeAddFriendsServlet.java
+│                  │      UserQuestionsServlet.java
+│                  │      UserRegisterServlet.java
+│                  │      UserSearchPagingServlet.java
+│                  │      UserSpaceInformationPagesServlet.java
+│                  │      
+│                  └─verificationCodeServlet
+│                          GetCodeImageServlet.java
+│                          GetCodeServlet.java
+│                          
+└─webapps
+    │  favicon.ico
+    │  index-email.jsp
+    │  index-feedback.jsp
+    │  index-not-get-code.html
+    │  index-register.jsp
+    │  index-reset-password.jsp
+    │  index-user-manual.html
+    │  index.jsp
+    │  resultInformation.jsp
+    │  
+    ├─css
+    │      index-email.css
+    │      index-feedback.css
+    │      index-not-get-code.css
+    │      index-register.css
+    │      index-reset-password.css
+    │      index-user-manual.css
+    │      index.css
+    │      resultInformation.css
+    │      style.css
+    │      
+    ├─errorPages
+    │  │  404.html
+    │  │  500.html
+    │  │  exception.html
+    │  │  favicon.ico
+    │  │  
+    │  ├─css
+    │  │      404.css
+    │  │      500.css
+    │  │      exception.css
+    │  │      
+    │  └─images
+    │          404.png
+    │          500.png
+    │          exception.png
+    │          
+    ├─headImagesUploadedByUsers
+    │      08f879ee-368a-4366-8917-7c5f021c7f96.jpg
+    │      1086d009-51b9-4c4b-b586-64e9fde55ea4.jpg
+    │      13a4bf0f-5e19-4d72-9fc1-329337ba79ae.jpg
+    │      29238502-b156-4161-a235-c7d20a4e25a3.jpg
+    │      32b6e4ba-25dd-42c1-b67a-04e84783900d.jpg
+    │      3899e04f-6be4-4ed5-9931-1068aa0fac77.jpg
+    │      49f004ff-cebc-4473-afb5-57c63adc02a6.jpg
+    │      4ec3d4dc-be7c-46a4-92f1-5761d87d0d3f.jpg
+    │      525f4cae-99ef-4093-84a3-f567c87679d9.jpg
+    │      59c00672-681a-4dfa-8e1e-a0d2a6ee990b.png
+    │      6c139e4c-b803-462f-9d09-2eec999f48cb.gif
+    │      834e5401-3b59-4f3b-9926-ad9a4a02647b.jpg
+    │      85322bbd-4771-4b48-b8ab-1be11e4bbe0a.jpg
+    │      86c7be49-1544-4877-9775-ad64c75d58d6.jpg
+    │      8870f596-064e-4665-8e99-65556304746a.jpg
+    │      9614424f-31e7-46cd-9ff9-7bc7d1cb29a2.jpg
+    │      9708078a-86ce-419b-b502-27d7db6b07db.jpg
+    │      996490d4-4d53-4c81-809a-2c5011476160.jpg
+    │      9e668ebf-f00c-42c1-aa7a-6bd59cc8b1c7.jpg
+    │      a0d36111-25fe-4869-a6e7-9f2a1792fdf2.jpg
+    │      a764ff3d-ed0d-45c0-a529-3bd6afa1fd45.jpg
+    │      a878a1a5-ab68-4609-a4c0-7c93248c9612.jpg
+    │      da538653-f404-4474-a072-18628c0e13d7.jpg
+    │      dce7b66d-b90c-463a-9d8b-67f002b5d59a.jpg
+    │      ded6ab19-1152-4090-a321-799cf6d80047.jpg
+    │      f9d36024-9621-4ffa-8328-19efd7a71332.jpg
+    │      
+    ├─images
+    │      favicon.png
+    │      login1.jpg
+    │      login2.jpg
+    │      login3.jpg
+    │      login4.jpg
+    │      login5.jpg
+    │      login6.jpg
+    │      login7.jpg
+    │      login8.jpg
+    │      login9.jpg
+    │      wenli.png
+    │      
+    ├─js
+    │      getXMLHttpRequest.js
+    │      index-register.js
+    │      index.js
+    │      jquery-1.7.1.min.js
+    │      jquery-1.8.2.js
+    │      sendEmailAndUserCode.js
+    │      ui.js
+    │      
+    ├─spaceImagesUploadedByUsers
+    │      0527f8fe-fb59-4d6a-a851-ebe13e06ef46.jpg
+    │      1114c370-5301-4670-8f6a-2ac686542c20.jpg
+    │      270270da-7bd0-4955-8c92-a1458c95c295.jpg
+    │      405f41d7-258c-4f19-8f7e-1b8ab127a461.jpg
+    │      6824a5cd-bea6-4aea-b8e5-c4bd5bd02ca0.jpg
+    │      7da2c76d-84ed-4b19-9ca1-912a21f1140c.jpg
+    │      8bc9b914-8675-4a07-a353-5d308939be90.jpg
+    │      a1c035b6-c0de-44b3-b2a3-0c92392e6e64.jpg
+    │      a23b02e2-fd51-49ff-b307-c5e619b7cc3e.jpg
+    │      b9190a64-adc7-4067-8079-e7e47f1e2e92.jpg
+    │      c182c73b-f8c9-4ee5-9920-a6a9ad94e6b6.jpg
+    │      d398a378-0d56-49b9-8d8b-23a6ec467947.jpg
+    │      df7e71eb-b356-4879-ac80-de8f9ceb6dac.jpg
+    │      ec8cedb3-4f68-47e0-ba6d-554c000cc676.jpg
+    │      f05e23dc-1baf-4cbd-bcc8-0c19baaeb417.jpg
+    │      
+    ├─viewOfAdmins
+    │  │  favicon.ico
+    │  │  index.html
+    │  │  
+    │  ├─css
+    │  │      base.css
+    │  │      index.css
+    │  │      show.css
+    │  │      style.css
+    │  │      
+    │  ├─images
+    │  │      favicon.png
+    │  │      logo1.png
+    │  │      wizardMap.png
+    │  │      
+    │  └─js
+    │          index-register.js
+    │          index.js
+    │          jquery-1.8.2.js
+    │          ui.js
+    │          
+    ├─viewOfUsers
+    │  │  favicon.ico
+    │  │  
+    │  ├─css
+    │  │      base-style.css
+    │  │      base.css
+    │  │      index-add-friends.css
+    │  │      index-list-friends.css
+    │  │      index-questions.css
+    │  │      index-updateinfo.css
+    │  │      index-updateinformation.css
+    │  │      index.css
+    │  │      style.css
+    │  │      
+    │  ├─images
+    │  │      1.jpg
+    │  │      1.png
+    │  │      2.jpg
+    │  │      2.png
+    │  │      bg1.jpg
+    │  │      bg2.jpg
+    │  │      bg3.jpg
+    │  │      bg4.jpg
+    │  │      bg5.jpg
+    │  │      bgp.png
+    │  │      demo.jpg
+    │  │      demo1.jpg
+    │  │      favicon.png
+    │  │      logo.png
+    │  │      logo1.png
+    │  │      logo2.png
+    │  │      logo3.png
+    │  │      noupimg.png
+    │  │      q1.png
+    │  │      q2.png
+    │  │      q3.png
+    │  │      q4.png
+    │  │      timg.jfif
+    │  │      touxi.jpg
+    │  │      wenli.png
+    │  │      wizardMap.png
+    │  │      
+    │  └─js
+    │          index-base.js
+    │          index-updateinfo.js
+    │          jQuery-1.11.js
+    │          jquery-1.7.1.min.js
+    │          jquery-1.8.2.js
+    │          ui.js
+    │          
+    └─WEB-INF
+        │  web.xml
+        │  
+        ├─classes
+        │  │  druid.properties
+        │  │  encoding.properties
+        │  │  
+        │  ├─AllTomcatLogs
+        │  │      TomcatLogs.log
+        │  │      
+        │  ├─cn
+        │  │  └─icanci
+        │  │      ├─dao
+        │  │      │  │  IAdminDao.class
+        │  │      │  │  IFriendRelationshipDao.class
+        │  │      │  │  IResultSetHander.class
+        │  │      │  │  IUserDao.class
+        │  │      │  │  IUserFeedbackDao.class
+        │  │      │  │  IUserSpaceDao.class
+        │  │      │  │  
+        │  │      │  └─impl
+        │  │      │          AdminDaoImpl.class
+        │  │      │          FriendRelationshipDaoImpl.class
+        │  │      │          UserDaoImpl$1.class
+        │  │      │          UserDaoImpl$2.class
+        │  │      │          UserDaoImpl.class
+        │  │      │          UserFeedbackImpl$1.class
+        │  │      │          UserFeedbackImpl.class
+        │  │      │          UserSpaceDaoImpl$1.class
+        │  │      │          UserSpaceDaoImpl$2.class
+        │  │      │          UserSpaceDaoImpl.class
+        │  │      │          
+        │  │      ├─domain
+        │  │      │      Admin.class
+        │  │      │      FriendRelationship.class
+        │  │      │      User.class
+        │  │      │      UserFeedback.class
+        │  │      │      UserSpace.class
+        │  │      │      
+        │  │      ├─exception
+        │  │      │      LogicException.class
+        │  │      │      
+        │  │      ├─hander
+        │  │      │      BeanHander.class
+        │  │      │      ListBeanHander.class
+        │  │      │      
+        │  │      ├─logs
+        │  │      │      AllException.class
+        │  │      │      ClassUserCreateLogs.class
+        │  │      │      JDBCLogs.class
+        │  │      │      OutputExceptions.class
+        │  │      │      ServletLogs.class
+        │  │      │      TomcatLogs.class
+        │  │      │      
+        │  │      ├─page
+        │  │      │      PageResult.class
+        │  │      │      
+        │  │      ├─template
+        │  │      │      JDBCTemplate.class
+        │  │      │      
+        │  │      ├─test
+        │  │      │      AdminDaoTest.class
+        │  │      │      Demo.class
+        │  │      │      FriendRelationshipDaoTest.class
+        │  │      │      UserDaoTest.class
+        │  │      │      UserFeedbackDaoTest.class
+        │  │      │      UserSpaceDaoTest.class
+        │  │      │      
+        │  │      ├─util
+        │  │      │      CaptchaUtils.class
+        │  │      │      EmailUtil.class
+        │  │      │      FileUtil.class
+        │  │      │      FileUtilUserSpace.class
+        │  │      │      JDBCUtil.class
+        │  │      │      JudgeStringEmptyUtil.class
+        │  │      │      MD5Util.class
+        │  │      │      StaticResources.class
+        │  │      │      
+        │  │      └─web
+        │  │          ├─filter
+        │  │          │      CheckLoginFilter.class
+        │  │          │      EncodingFilter.class
+        │  │          │      MaxSessionLifeFilter.class
+        │  │          │      
+        │  │          └─servlet
+        │  │              ├─admin
+        │  │              │      AdminDeleteFeedbackServlet.class
+        │  │              │      AdminServlet.class
+        │  │              │      
+        │  │              ├─listFeedback
+        │  │              │      AdminListFeedbackServlet.class
+        │  │              │      AdminLookFeedbackInformationPagesServlet.class
+        │  │              │      AdminSearchPagingServlet.class
+        │  │              │      UserFeedbackServlet.class
+        │  │              │      
+        │  │              ├─user
+        │  │              │      CheckEmailServlet.class
+        │  │              │      ErroneousJumpServlet.class
+        │  │              │      GetUserSpaceInformationServlet.class
+        │  │              │      IndexByEmailServlet.class
+        │  │              │      IndexByUsernameServlet.class
+        │  │              │      InnerUserUpdateSelfInformationsServlet.class
+        │  │              │      JudgeUsersImproveInformationServlet.class
+        │  │              │      LogoutServlet.class
+        │  │              │      OutterUserUpdateSelfInformationServlet.class
+        │  │              │      ResultInformationServlet.class
+        │  │              │      SaveUserSpacePostServlet.class
+        │  │              │      UserAddFriendsServlet.class
+        │  │              │      UserDeleteSelfUserSpaceServlet.class
+        │  │              │      UserIndexUpdateinformationServlet.class
+        │  │              │      UserInitLoginServlet.class
+        │  │              │      UserJudgeAddFriendsServlet.class
+        │  │              │      UserQuestionsServlet.class
+        │  │              │      UserRegisterServlet.class
+        │  │              │      UserSearchPagingServlet.class
+        │  │              │      UserSpaceInformationPagesServlet.class
+        │  │              │      
+        │  │              └─verificationCodeServlet
+        │  │                      GetCodeImageServlet.class
+        │  │                      GetCodeServlet.class
+        │  │                      
+        │  └─OtherLogs
+        │          AllExceptionLogs.log
+        │          
+        ├─lib
+        │      activation.jar
+        │      commons-email-1.5.jar
+        │      commons-fileupload-1.2.2.jar
+        │      commons-io-1.4.jar
+        │      commons-lang3-3.2.1.jar
+        │      druid-1.1.16.jar
+        │      javax.mail.jar
+        │      jstl-1.2.jar
+        │      lombok.jar
+        │      mysql-connector-java-5.1.29.jar
+        │      standard.jar
+        │      
+        └─views
+            ├─admins
+            │      show.jsp
+            │      
+            └─users
+                    index-add-friends.jsp
+                    index-list-friends.html
+                    index-questions.jsp
+                    index-updateinfo.jsp
+                    index-updateinformation.jsp
+                    index.jsp
+                    

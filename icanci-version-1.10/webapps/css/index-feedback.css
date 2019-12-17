@@ -1,0 +1,77 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background: url(../images/login3.jpg) no-repeat;
+	background-position: -100px -250px;
+}
+
+.box{
+	width: 300px;
+	padding: 40px;
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background: #191919;
+	opacity: 0.85;
+	text-align: center;
+	color: white;
+}
+.box input[type = "text"]{
+	border: 0;
+	background:none ;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #3498db;
+	padding: 14px 10px;
+	width: 200px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition: 0.25s;
+	opacity: 1;
+}
+
+.box input[type = "text"]:focus{
+	width: 280px;
+	border-color: #2ecc71;
+	opacity: 1;
+}
+.box input[type = "submit"]{
+	border: 0;
+	background:none ;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #3498db;
+	padding: 14px 40px;
+	/* width: 200px; */
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition: 0.25s;
+	cursor: pointer;
+	opacity: 1;
+}
+.box input[type = "submit"]:hover{
+	background: #2ECC71;
+}
+.box input:hover{
+	border: greenyellow solid 2px;
+}
+
+.box p a{
+	color: white;
+	text-decoration: none;
+	opacity: 0.7;
+}
+.box p a:hover{
+	color: #2ECC71;
+	opacity: 0.7;
+}
+.box p span{
+	color: white;
+	opacity: 0.7;
+}

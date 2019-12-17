@@ -1,0 +1,20 @@
+十二月 13, 2019 7:09:56 下午 org.apache.catalina.core.StandardServer await
+信息: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+十二月 13, 2019 7:09:56 下午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["http-bio-80"]
+十二月 13, 2019 7:09:56 下午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["ajp-bio-8009"]
+十二月 13, 2019 7:09:56 下午 org.apache.catalina.core.StandardService stopInternal
+信息: Stopping service Catalina
+十二月 13, 2019 7:09:56 下午 org.apache.catalina.core.ApplicationContext log
+信息: SessionListener: contextDestroyed()
+十二月 13, 2019 7:09:56 下午 org.apache.catalina.core.ApplicationContext log
+信息: ContextListener: contextDestroyed()
+十二月 13, 2019 7:09:56 下午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["http-bio-80"]
+十二月 13, 2019 7:09:56 下午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["ajp-bio-8009"]
+十二月 13, 2019 7:09:56 下午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["http-bio-80"]
+十二月 13, 2019 7:09:56 下午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["ajp-bio-8009"]

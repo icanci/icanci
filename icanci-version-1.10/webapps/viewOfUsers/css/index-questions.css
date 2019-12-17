@@ -1,0 +1,84 @@
+body{
+	border: #000000 solid 1px;
+}
+
+.top-navigation {
+	width: 100%;
+	height: 50px;
+	background-color: #333333;
+	position: fixed;
+	margin-bottom: 100px;
+}
+
+.top-navigation-left {
+	float: left;
+	width: 35%;
+	height: 50px;
+	margin-left: 20%;
+}
+
+.top-navigation-left .top-navigation-left-logo {
+	width: 120px;
+	height: 50px;
+	float: left;
+}
+
+.top-navigation-left .top-navigation-left-logo img {
+	width: 120px;
+	height: 40px;
+	position: fixed;
+	margin-top: 5px;
+}
+
+.top-navigation-right {
+	float: right;
+	width: 20%;
+	height: 50px;
+	margin-right: 15%;
+}
+
+.top-navigation-right .top-navigation-right-me ul li {
+	float: left;
+	margin-left: 5%;
+}
+
+.top-navigation-right .top-navigation-right-me ul li img {
+	width: 40px;
+	height: 40px;
+	margin-top: 5px;
+}
+
+.top-navigation-right .top-navigation-right-me ul li a {
+	line-height: 50px;
+	color: white;
+}
+
+.top-navigation-right .top-navigation-right-me ul li a:hover {
+	color: #2ECC71;
+}
+
+.top-navigation-right .top-navigation-right-me {
+	text-align: center;
+}
+
+h3{
+	font-size: 20px;
+	color: #000000;
+}
+
+p{
+	font-size: 15px;
+	color: #000000;
+}
+
+.easy-questions{
+	width: 50%;
+	height: 2000px;
+	/* background-color: #007AFF; */
+	margin: 0 auto;
+	margin-top: 50px;
+}
+.easy-questions img{
+	width: 600px;
+	height: 400px;
+}

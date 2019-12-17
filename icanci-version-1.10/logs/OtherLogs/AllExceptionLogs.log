@@ -1,0 +1,190 @@
+十一月 28, 2019 9:46:36 上午 org.apache.catalina.core.StandardContext setPath
+警告: A context path must either be an empty string or start with a '/' and do not end with a '/'. The path [/] does not meet these criteria and has been changed to []
+十一月 28, 2019 9:46:36 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server version:        Apache Tomcat/7.0.96
+十一月 28, 2019 9:46:36 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server built:          Jul 24 2019 13:00:10 UTC
+十一月 28, 2019 9:46:36 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server number:         7.0.96.0
+十一月 28, 2019 9:46:36 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Name:               Windows 10
+十一月 28, 2019 9:46:36 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Version:            10.0
+十一月 28, 2019 9:46:36 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Architecture:          amd64
+十一月 28, 2019 9:46:36 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Java Home:             D:\ProgramFiles\Java\jdk1.8.0_131\jre
+十一月 28, 2019 9:46:36 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Version:           1.8.0_131-b11
+十一月 28, 2019 9:46:36 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Vendor:            Oracle Corporation
+十一月 28, 2019 9:46:36 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_BASE:         D:\apache-tomcat-7.0.96
+十一月 28, 2019 9:46:36 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_HOME:         D:\apache-tomcat-7.0.96
+十一月 28, 2019 9:46:36 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.base=D:\apache-tomcat-7.0.96
+十一月 28, 2019 9:46:36 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.home=D:\apache-tomcat-7.0.96
+十一月 28, 2019 9:46:36 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dwtp.deploy=D:\apache-tomcat-7.0.96\webapps
+十一月 28, 2019 9:46:36 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.endorsed.dirs=D:\apache-tomcat-7.0.96\endorsed
+十一月 28, 2019 9:46:36 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dfile.encoding=UTF-8
+十一月 28, 2019 9:46:36 上午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: D:\ProgramFiles\Java\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:/ProgramFiles/Java/jdk1.8.0_131//bin/../jre/bin/server;D:/ProgramFiles/Java/jdk1.8.0_131//bin/../jre/bin;D:/ProgramFiles/Java/jdk1.8.0_131//bin/../jre/lib/amd64;D:\xshell\;D:\ProgramFiles\Java\jdk1.8.0_131\\bin;D:\ProgramFiles\Java\jdk1.8.0_131\\jre\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\Git\Git\cmd;D:\mysql\mysql\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\ ;D:\apache-ant-1.9.14\bin;D:\apache-maven-3.0.5\bin;C:\Users\CC\AppData\Local\Microsoft\WindowsApps;C:\Users\CC\AppData\Local\GitHubDesktop\bin;C:\Users\CC\AppData\Local\Microsoft\WindowsApps;D:\虎牙\;D:\eclipse\eclipse;;.
+十一月 28, 2019 9:46:36 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-80"]
+十一月 28, 2019 9:46:36 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8009"]
+十一月 28, 2019 9:46:36 上午 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 541 ms
+十一月 28, 2019 9:46:36 上午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+十一月 28, 2019 9:46:36 上午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.96
+十一月 28, 2019 9:46:37 上午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://java.sun.com/jstl/core_rt is already defined
+十一月 28, 2019 9:46:37 上午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://java.sun.com/jstl/core is already defined
+十一月 28, 2019 9:46:37 上午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://java.sun.com/jsp/jstl/core is already defined
+十一月 28, 2019 9:46:37 上午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://java.sun.com/jstl/fmt_rt is already defined
+十一月 28, 2019 9:46:37 上午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://java.sun.com/jstl/fmt is already defined
+十一月 28, 2019 9:46:37 上午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://java.sun.com/jsp/jstl/fmt is already defined
+十一月 28, 2019 9:46:37 上午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://java.sun.com/jsp/jstl/functions is already defined
+十一月 28, 2019 9:46:37 上午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://jakarta.apache.org/taglibs/standard/permittedTaglibs is already defined
+十一月 28, 2019 9:46:37 上午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://jakarta.apache.org/taglibs/standard/scriptfree is already defined
+十一月 28, 2019 9:46:37 上午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://java.sun.com/jstl/sql_rt is already defined
+十一月 28, 2019 9:46:37 上午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://java.sun.com/jstl/sql is already defined
+十一月 28, 2019 9:46:37 上午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://java.sun.com/jsp/jstl/sql is already defined
+十一月 28, 2019 9:46:37 上午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://java.sun.com/jstl/xml_rt is already defined
+十一月 28, 2019 9:46:37 上午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://java.sun.com/jstl/xml is already defined
+十一月 28, 2019 9:46:37 上午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://java.sun.com/jsp/jstl/xml is already defined
+十一月 28, 2019 9:46:37 上午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://java.sun.com/jstl/core_rt is already defined
+十一月 28, 2019 9:46:37 上午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://java.sun.com/jsp/jstl/core is already defined
+十一月 28, 2019 9:46:37 上午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://java.sun.com/jstl/fmt_rt is already defined
+十一月 28, 2019 9:46:37 上午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://java.sun.com/jsp/jstl/fmt is already defined
+十一月 28, 2019 9:46:37 上午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://java.sun.com/jsp/jstl/functions is already defined
+十一月 28, 2019 9:46:37 上午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://jakarta.apache.org/taglibs/standard/permittedTaglibs is already defined
+十一月 28, 2019 9:46:37 上午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://jakarta.apache.org/taglibs/standard/scriptfree is already defined
+十一月 28, 2019 9:46:37 上午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://java.sun.com/jstl/sql_rt is already defined
+十一月 28, 2019 9:46:37 上午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://java.sun.com/jsp/jstl/sql is already defined
+十一月 28, 2019 9:46:37 上午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://java.sun.com/jstl/xml_rt is already defined
+十一月 28, 2019 9:46:37 上午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://java.sun.com/jsp/jstl/xml is already defined
+十一月 28, 2019 9:46:37 上午 org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+警告: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [439] milliseconds.
+十一月 28, 2019 9:46:37 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\apache-tomcat-7.0.96\webapps\docs
+十一月 28, 2019 9:46:38 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory D:\apache-tomcat-7.0.96\webapps\docs has finished in 75 ms
+十一月 28, 2019 9:46:38 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\apache-tomcat-7.0.96\webapps\examples
+十一月 28, 2019 9:46:38 上午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://java.sun.com/jstl/core_rt is already defined
+十一月 28, 2019 9:46:38 上午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://java.sun.com/jsp/jstl/core_1_1 is already defined
+十一月 28, 2019 9:46:38 上午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://java.sun.com/jsp/jstl/core is already defined
+十一月 28, 2019 9:46:38 上午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://java.sun.com/jstl/fmt_rt is already defined
+十一月 28, 2019 9:46:38 上午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://java.sun.com/jsp/jstl/fmt is already defined
+十一月 28, 2019 9:46:38 上午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://java.sun.com/jsp/jstl/functions is already defined
+十一月 28, 2019 9:46:38 上午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://jakarta.apache.org/taglibs/standard/permittedTaglibs is already defined
+十一月 28, 2019 9:46:38 上午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://jakarta.apache.org/taglibs/standard/scriptfree is already defined
+十一月 28, 2019 9:46:38 上午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://java.sun.com/jstl/sql_rt is already defined
+十一月 28, 2019 9:46:38 上午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://java.sun.com/jsp/jstl/sql is already defined
+十一月 28, 2019 9:46:38 上午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://java.sun.com/jstl/xml_rt is already defined
+十一月 28, 2019 9:46:38 上午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://java.sun.com/jsp/jstl/xml is already defined
+十一月 28, 2019 9:46:38 上午 org.apache.catalina.core.ApplicationContext log
+信息: ContextListener: contextInitialized()
+十一月 28, 2019 9:46:38 上午 org.apache.catalina.core.ApplicationContext log
+信息: SessionListener: contextInitialized()
+十一月 28, 2019 9:46:38 上午 org.apache.catalina.core.ApplicationContext log
+信息: ContextListener: attributeAdded('StockTicker', 'async.Stockticker@6994e059')
+十一月 28, 2019 9:46:38 上午 org.apache.catalina.core.ApplicationContext log
+信息: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@70108e17')
+十一月 28, 2019 9:46:38 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory D:\apache-tomcat-7.0.96\webapps\examples has finished in 224 ms
+十一月 28, 2019 9:46:38 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\apache-tomcat-7.0.96\webapps\host-manager
+十一月 28, 2019 9:46:38 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory D:\apache-tomcat-7.0.96\webapps\host-manager has finished in 61 ms
+十一月 28, 2019 9:46:38 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\apache-tomcat-7.0.96\webapps\manager
+十一月 28, 2019 9:46:38 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory D:\apache-tomcat-7.0.96\webapps\manager has finished in 70 ms
+十一月 28, 2019 9:46:38 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-bio-80"]
+十一月 28, 2019 9:46:38 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-bio-8009"]
+十一月 28, 2019 9:46:38 上午 org.apache.catalina.startup.Catalina start
+信息: Server startup in 1891 ms
+new : NW0wv
+中转 : NW0wv
+传输 验证码: NW0wv
+十一月 28, 2019 9:46:57 上午 com.alibaba.druid.pool.DruidDataSource info
+信息: {dataSource-1} inited
+打印对象来自判断是否上传用户必需的信息等    User(id=20, username=sleep, password=670b14728ad9902aecba32e22fa4f6bd, email=3425990751@qq.com, jointime=1574847499875, headimage=/headImagesUploadedByUsers/9614424f-31e7-46cd-9ff9-7bc7d1cb29a2.jpg, sex=男, age=16, personalizedSignature=Just a sleep demo !)
+十一月 28, 2019 9:56:22 上午 org.apache.catalina.core.StandardServer await
+信息: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+十一月 28, 2019 9:56:22 上午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["http-bio-80"]
+十一月 28, 2019 9:56:22 上午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["ajp-bio-8009"]
+十一月 28, 2019 9:56:22 上午 org.apache.catalina.core.StandardService stopInternal
+信息: Stopping service Catalina
+十一月 28, 2019 9:56:22 上午 org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+严重: The web application [] registered the JDBC driver [com.alibaba.druid.proxy.DruidDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+十一月 28, 2019 9:56:22 上午 org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+严重: The web application [] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+十一月 28, 2019 9:56:22 上午 org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+严重: The web application [] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak.
+十一月 28, 2019 9:56:22 上午 org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+严重: The web application [] appears to have started a thread named [Druid-ConnectionPool-Create-317176200] but has failed to stop it. This is very likely to create a memory leak.
+十一月 28, 2019 9:56:22 上午 org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+严重: The web application [] appears to have started a thread named [Druid-ConnectionPool-Destroy-317176200] but has failed to stop it. This is very likely to create a memory leak.
+十一月 28, 2019 9:56:22 上午 org.apache.catalina.core.ApplicationContext log
+信息: SessionListener: contextDestroyed()
+十一月 28, 2019 9:56:22 上午 org.apache.catalina.core.ApplicationContext log
+信息: ContextListener: contextDestroyed()
+十一月 28, 2019 9:56:22 上午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["http-bio-80"]
+十一月 28, 2019 9:56:22 上午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["ajp-bio-8009"]
+十一月 28, 2019 9:56:22 上午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["http-bio-80"]
+十一月 28, 2019 9:56:22 上午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["ajp-bio-8009"]
